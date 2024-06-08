@@ -36,7 +36,7 @@ public class DollarGame {
 
     private static double calculateTotalAmount(int pennies, int nickels, int dimes, int quarters) {
         return (pennies * 0.01) + (nickels * 0.05) + (dimes * 0.10) + (quarters * 0.25);
-    };
+    }
 
     private static void printResult(double total, double difference) {
         String message;
