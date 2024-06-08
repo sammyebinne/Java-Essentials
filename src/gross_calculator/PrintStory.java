@@ -8,18 +8,15 @@ public class PrintStory {
 
 //        season of the year
         System.out.println("What season of the year are you currently in?");
-        String season = "";
-        season = scanner.next();
+        String season = scanner.next();
 
 //        whole number (Integer)
         System.out.println("What is the temperature now?");
-        int temperature = 0;
-        temperature = scanner.nextInt();
+        int temperature = scanner.nextInt();
 
 //        Adjective
         System.out.println("Describe how you feel right now in one word");
-        String adjective = "";
-        adjective = scanner.next();
+        String adjective = scanner.next();
 
         scanner.close();
 
